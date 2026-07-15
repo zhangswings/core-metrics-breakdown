@@ -8,7 +8,8 @@
     "platformMetricCount": 27,
     "badgeCount": 2,
     "redPlaceholderCount": 6,
-    "platformOrder": ["yellow", "taobao", "red"]
+    "platformOrder": ["yellow", "taobao", "red"],
+    "platformLabels": ["美团外卖", "淘宝闪购", "京东外卖"]
   },
   "viewports": [
     {

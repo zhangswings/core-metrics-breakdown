@@ -559,9 +559,9 @@
         <p class="subtitle">核心经营指标与平台贡献拆解</p>
       </div>
       <nav class="platform-legend" aria-label="平台图例">
-        <span class="legend-item"><span class="platform-mark rabbit" aria-hidden="true">兔</span>黄色平台</span>
+        <span class="legend-item"><span class="platform-mark rabbit" aria-hidden="true">美</span>美团外卖</span>
         <span class="legend-item"><span class="platform-mark square" aria-hidden="true">淘</span>淘宝闪购</span>
-        <span class="legend-item"><span class="platform-mark circle" aria-hidden="true">红</span>红色平台</span>
+        <span class="legend-item"><span class="platform-mark circle" aria-hidden="true">京</span>京东外卖</span>
       </nav>
     </header>
 
@@ -620,7 +620,7 @@
   },
   "platforms": {
     "yellow": {
-      "label": "黄色平台",
+      "label": "美团外卖",
       "marker": "rabbit",
       "metrics": {
         "takeRate": ["50.50%", "-0.07个百分点", "negative", null],
@@ -650,7 +650,7 @@
       }
     },
     "red": {
-      "label": "红色平台",
+      "label": "京东外卖",
       "marker": "circle",
       "metrics": {
         "takeRate": ["47.20%", "+0.01个百分点", "positive", "上升明显"],
@@ -684,7 +684,7 @@
         exposure: '曝光人数'
       };
 
-      const markerText = { yellow: '兔', taobao: '淘', red: '红' };
+      const markerText = { yellow: '美', taobao: '淘', red: '京' };
 
       function deltaMarkup(delta, tone) {
         return `<span class="delta ${tone}">${delta}</span>`;

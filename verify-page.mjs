@@ -44,7 +44,7 @@ const expectedSummaries = {
 
 const expectedPlatforms = {
   yellow: {
-    label: '黄色平台',
+    label: '美团外卖',
     marker: 'rabbit',
     metrics: {
       takeRate: ['50.50%', '-0.07个百分点', 'negative', null],
@@ -74,7 +74,7 @@ const expectedPlatforms = {
     },
   },
   red: {
-    label: '红色平台',
+    label: '京东外卖',
     marker: 'circle',
     metrics: {
       takeRate: ['47.20%', '+0.01个百分点', 'positive', '上升明显'],
@@ -106,9 +106,13 @@ expect(html.includes('@media (max-width: 1439px)'), '1439px responsive rule');
 expect(html.includes('@media (max-width: 899px)'), '899px responsive rule');
 expect(html.includes('data-platform='), 'rendered platform data attributes');
 expect(html.includes('data-summary-id='), 'rendered summary data attributes');
-expect(html.includes('platform-mark rabbit'), 'yellow rabbit marker');
+expect(html.includes('platform-mark rabbit'), 'Meituan marker');
 expect(html.includes('platform-mark square'), 'orange square marker');
-expect(html.includes('platform-mark circle'), 'red circle marker');
+expect(html.includes('platform-mark circle'), 'JD marker');
+expect(html.includes('>美</span>美团外卖'), 'Meituan visible label');
+expect(html.includes('>京</span>京东外卖'), 'JD visible label');
+expect(!html.includes('黄色平台'), 'no legacy yellow platform label');
+expect(!html.includes('红色平台'), 'no legacy red platform label');
 expect(html.includes('class="tree-connectors root-connectors"'), 'desktop tree connector layer');
 expect(html.includes('对比差值'), 'delta prefix');
 
