@@ -1,0 +1,70 @@
+{
+  "validatedAt": "2026-07-15T00:00:00+08:00",
+  "pageTitle": "核心指标拆解分析",
+  "httpPreview": "localhost port 8768",
+  "consoleErrors": [],
+  "canonicalData": {
+    "summaryCount": 5,
+    "platformMetricCount": 27,
+    "badgeCount": 2,
+    "redPlaceholderCount": 6,
+    "platformOrder": ["yellow", "taobao", "red"]
+  },
+  "viewports": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "clientWidth": 1920,
+      "scrollHeight": 1080,
+      "clientHeight": 1080,
+      "overflowX": 0,
+      "overflowY": 0,
+      "connectors": "visible"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "scrollHeight": 900,
+      "clientHeight": 900,
+      "overflowX": 0,
+      "overflowY": 0,
+      "connectors": "visible"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "scrollHeight": 768,
+      "clientHeight": 768,
+      "overflowX": 0,
+      "overflowY": 0,
+      "coreColumns": 2,
+      "connectors": "visible"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 2695,
+      "clientHeight": 844,
+      "overflowX": 0,
+      "overflowY": 1851,
+      "coreColumns": 1,
+      "connectors": "hidden"
+    }
+  ],
+  "offlineReadiness": {
+    "externalAssets": 0,
+    "networkRequestsInSource": 0,
+    "inlineCss": true,
+    "inlineData": true,
+    "inlineScript": true,
+    "browserFileSchemeTest": "blocked-by-browser-security-policy",
+    "structuralResult": "pass"
+  }
+}
